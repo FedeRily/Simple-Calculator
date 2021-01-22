@@ -4,8 +4,8 @@ let num2;
 let resultado;
 
 function readData(){
-    num1 = parseInt((document.getElementById("numero1").value));
-    num2 = parseInt((document.getElementById("numero2").value));
+    num1 = parseFloat((document.getElementById("numero1").value));
+    num2 = parseFloat((document.getElementById("numero2").value));
 }
 function suma(){
     readData();
